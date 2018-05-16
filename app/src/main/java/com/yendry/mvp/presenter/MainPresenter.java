@@ -2,11 +2,10 @@ package com.yendry.mvp.presenter;
 
 import android.content.Context;
 import android.util.Log;
-import android.view.View;
 
 import com.yendry.mvp.model.Repository;
-import com.yendry.mvp.model.model.Acronym;
-import com.yendry.mvp.model.model.Lf;
+import com.yendry.mvp.model.entities.Acronym;
+import com.yendry.mvp.model.entities.Lf;
 import com.yendry.mvp.view.MainView;
 
 import java.util.ArrayList;
@@ -16,7 +15,6 @@ import java.util.Map;
 
 import javax.inject.Inject;
 
-import rx.Observable;
 import rx.Subscriber;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;

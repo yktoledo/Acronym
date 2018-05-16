@@ -1,12 +1,11 @@
 package com.yendry.mvp.model;
 
-import com.yendry.mvp.model.model.Acronym;
+import com.yendry.mvp.model.entities.Acronym;
 
 import java.util.List;
 import java.util.Map;
 
 import retrofit2.http.GET;
-import retrofit2.http.Query;
 import retrofit2.http.QueryMap;
 import rx.Observable;
 

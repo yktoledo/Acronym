@@ -1,5 +1,5 @@
 
-package com.yendry.mvp.model.model;
+package com.yendry.mvp.model.entities;
 
 import java.util.List;
 import com.google.gson.annotations.Expose;
